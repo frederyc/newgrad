@@ -1,6 +1,9 @@
-# newgrad.eu
+# newgrad
 
 ![Screenshot (2)](https://github.com/frederyc/newgradeu-be/assets/64581539/26118aee-1e5f-4a44-9843-050d74064151)
+
+### Demo video ###
+Click [here](https://drive.google.com/file/d/1fOC2MQZAKTu9vJkHVtrPvnOhiAbHXiD5/view?usp=sharing) to view the video (GitHub supports only <10MB videos)
 
 ### Setup backend ###
 Requirements:
