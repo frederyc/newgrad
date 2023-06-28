@@ -10,7 +10,7 @@ Requirements:
 Setup Instructions:
 1. Create a file named `application.properties` in the `be/src/main/resources` folder.
 2. Inside the `application.properties` file, add the following properties: `aws.accesskey`, `aws.secretkey`, `aws.cognito.userpoolid`, `aws.cognito.clientid`, `aws.cognito.clientsecret`, `aws.dynamodb.serviceendpoint`, `aws.dynamodb.signinregion`. If you need assistance with these values, please contact the administrator. I cannot make them publicly available.
-3. Open a terminal and navigate to the `/be` folder of the project.
+3. Open a terminal and navigate to the `be` folder of the project.
 4. Run the command `mvn clean install` to install the project dependencies.
 5. Once the dependencies are installed, run the command `mvn spring-boot:run` to start the backend server.
 
@@ -19,8 +19,8 @@ Requirements:
 - Node 18.14.2 or higher
 
 Setup Instructions:
-1. Create a `.env` file in the `/fe` folder. Separated by a new line, add `REACT_APP_S3_CONTAINER_COMPANIES=https://newgradeu-companies.s3.amazonaws.com` and `REACT_APP_BASE_URL=http://localhost:8080/api/v1`. The base url may differ based on the port you want to run your server on.
-2. Open a terminal and navigate to the `/fe` folder of the project.
+1. Create a `.env` file in the `fe` folder. Separated by a new line, add `REACT_APP_S3_CONTAINER_COMPANIES=https://newgradeu-companies.s3.amazonaws.com` and `REACT_APP_BASE_URL=http://localhost:8080/api/v1`. The base url may differ based on the port you want to run your server on.
+2. Open a terminal and navigate to the `fe` folder of the project.
 3. Run the command `npm i` to install the project dependencies.
 4. After the dependencies are installed, run the command `npm start` to start the frontend application.
 
